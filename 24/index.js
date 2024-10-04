@@ -16,6 +16,6 @@ function domainName(url) {
    const urlArr =  url.split(".com")
     return urlArr[0].replace(httpRegex, "")
   } else {
-    console.log("Error: unvalid url")
+    console.log("Error: Unvalid url")
   }
 }
